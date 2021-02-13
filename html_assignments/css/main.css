@@ -1,4 +1,19 @@
-h1, ul, p{
-    font-size: 200px;
-    font-size: xx-large;
+/*increasing font size*/
+body{
+    font-size: 18px;
 }
+/* adding header & footer background color*/
+
+header, footer{
+    background-color: brown;
+}
+.site-title{
+    color: cornsilk;
+}
+#my-image{
+    box-shadow: 0 0 2px 1px black;
+}
+h2+ul{
+    list-style: square;
+}
+h2+ul:nth-child(
