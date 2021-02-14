@@ -33,12 +33,22 @@ h2+ul :nth-child(odd) {
 }
 
 /*Remove Bullets from Nav and remove Underline from link*/
-nav ul :link {
-    list-style-type: none;
+nav ul li{
+    list-style: none;
+}
+
+nav ul :link{
     text-decoration: none;
 }
 
 /*Hover background color change*/
 nav ul :hover {
     color: red;
+}
+
+/*LoVe Hate*/
+nav ul li,
+nav ul :link,
+nav ul :hover {
+    background-color: chartreuse;
 }
