@@ -1,19 +1,44 @@
 /*increasing font size*/
-body{
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
 }
+
 /* adding header & footer background color*/
 
-header, footer{
-    background-color: brown;
+header,
+footer {
+    background-color: cornflowerblue;
 }
-.site-title{
+
+/*Class selector*/
+.site-title {
     color: cornsilk;
 }
-#my-image{
+
+/*Id selector*/
+#my-image {
     box-shadow: 0 0 2px 1px black;
 }
-h2+ul{
+
+/*Replace bullets from list of hobbies*/
+h2+ul {
     list-style: square;
 }
-h2+ul:nth-child(1)
+
+/*Using nth-child, adding background in odd list*/
+h2+ul :nth-child(odd) {
+    color: purple;
+    background-color: yellowgreen
+}
+
+/*Remove Bullets from Nav and remove Underline from link*/
+nav ul :link {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/*Hover background color change*/
+nav ul :hover {
+    color: red;
+}
