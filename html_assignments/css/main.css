@@ -33,11 +33,11 @@ h2+ul :nth-child(odd) {
 }
 
 /*Remove Bullets from Nav and remove Underline from link*/
-nav ul li{
+nav ul li {
     list-style: none;
 }
 
-nav ul :link{
+nav ul :link {
     text-decoration: none;
 }
 
