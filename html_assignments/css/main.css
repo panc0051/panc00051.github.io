@@ -16,4 +16,4 @@ header, footer{
 h2+ul{
     list-style: square;
 }
-h2+ul:nth-child(
+h2+ul:nth-child(1)
