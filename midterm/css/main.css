@@ -1,0 +1,45 @@
+.Fish {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.Fish h1 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 20px;
+}
+
+nav {
+    position:relative
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+  }
+
+  nav ul li {
+  display: inline-block;
+  width: 20%;
+  color: aquamarine;
+  text-align: center;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+nav ul a:hover,
+nav ul a:focus {
+  text-decoration: underline;
+}
+
+nav ul a:active {
+  /* horizontal vertical blur spread color */
+  box-shadow: 0 0 4px 2px black;
+}
+img {
+    float: right;
+    width: 250px;
+  }
