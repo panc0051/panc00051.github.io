@@ -5,11 +5,11 @@
 }
 
 .Fish h1 {
-    position: absolute;
-    top: 70%;
-    left: 50%;
+    position:relative;
+    top: 3%;
+    left: 30%;
     transform: translate(-50%, -50%);
-    letter-spacing: 20px;
+    letter-spacing: 2px;
 }
 
 nav {
@@ -42,4 +42,9 @@ nav ul a:active {
 img {
     float: right;
     width: 250px;
+  }
+
+  #mix+h4+form {
+    border: 1px solid brown; 
+    padding: 2px;
   }
