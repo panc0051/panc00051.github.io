@@ -1,17 +1,31 @@
+html{
+  font: 16px;
+}
+/*increasing font size*/
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+}
+
+/*
 .Fish {
     position: relative;
     text-align: center;
     color: white;
 }
-
-.Fish h1 {
+*/
+.Fish h1{
     position:relative;
-    top: 3%;
-    left: 30%;
+    background-image: url(image/lone-starfish-wide.jpg);
+    width: 20%;
+    bottom: 50%;
+    left: 52%;
+    color: whitesmoke;
     transform: translate(-50%, -50%);
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    padding: 3px;
 }
-
+/*
 nav {
     position:relative
     top: 0;
@@ -20,16 +34,18 @@ nav {
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 999;
   }
-
-  nav ul li {
+*/
+  nav ul li{
+  position: relative;
   display: inline-block;
-  width: 20%;
-  color: aquamarine;
+  width: 15%;
+  color: purple;
   text-align: center;
-  padding: 1em;
   box-sizing: border-box;
+  
+  
 }
-
+/*navigation decoration*/
 nav ul a:hover,
 nav ul a:focus {
   text-decoration: underline;
@@ -39,12 +55,18 @@ nav ul a:active {
   /* horizontal vertical blur spread color */
   box-shadow: 0 0 4px 2px black;
 }
+/*Image setting*/
 img {
-    float: right;
-    width: 250px;
+    float:left;
+    width: 9em;
+    padding-right: 1em;
+  }
+/*adding border to form*/
+  #mix+h4+form {
+    border: 5px solid brown; 
+    padding: 20px;
   }
 
-  #mix+h4+form {
-    border: 1px solid brown; 
+  p{
     padding: 2px;
   }
