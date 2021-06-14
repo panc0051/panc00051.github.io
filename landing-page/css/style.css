@@ -112,23 +112,17 @@
     padding: 7px;
     margin: 3%;
 }
-.Flex-box > div {
-    width: 100px;
-    margin: 10px;
-    line-height: 0%;
-    display: grid;
-    grid-template-rows: 1, 2fr;
+.parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow:row wrap;
+    justify-content: space-evenly;
 }
-#Hours{
-    display:grid;
-    width: 10%;
-    height: 1%;
-    
-}
-#City{
-    display:grid;
-    width: 1%;
-    height: 10%;
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .button2 {
     background-color: #ff8480;
@@ -149,18 +143,18 @@
 
 @media screen and (min-width:900px) {
     .Logo {
-        width: 30%;
+        width: 40%;
         padding: 2%;
     }
 
     .boss {
-        font-size: 850%;
+        font-size: 900%;
         margin: 0%;
         padding: 2%;
     }
 
     .start {
-        font-size: 7vw;
+        font-size: 4vw;
         text-align: left;
         color: darkgray;
         padding: 2%;
@@ -172,4 +166,41 @@
         padding: 4%;
         margin: 0%;
     }
+    .para2 {
+        text-align: left;
+        padding: 2%;
+        margin: 0%;
+        font-size: 3vw;
+    }
+    .parent {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-flow:row;
+        position: relative;
+        justify-content: space-around;
+        
+    }
+    .button2 {
+        background-color: #ff8480;
+        /* Red */
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display:grid;
+        font-size: 26px;
+        margin: 60px 60px;
+        cursor: pointer;
+        border-radius: 12px;
+        width: 100%;
+        line-height: 0;
+    }
 }
+@media screen and (min-width:1100px){
+    .Logo{
+        width: 7%;
+    }
+    
+} 
