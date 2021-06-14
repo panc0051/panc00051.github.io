@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,41 +8,52 @@
     <title>landing page</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="body">
-    <img class="Logo" src = "images/logo.png">
+    <img class="Logo" src="images/logo.png">
     <section class="Boss">
-    <h1 class="boss">Want to be your own boss?</h1>
-    <p class="start">start today and make up to $30/hr driving your own vehical with dash!</p>
+        <h1 class="boss">Want to be your own boss?</h1>
+        <p class="start">Start today and make up <br>to $30/hr driving your<br> own vehical with Dash!</p>
     </section>
     <img class="scooter" src="images/scooter.svg">
-    <form class="mainform"  action="/action_page.php">
-        <h3 class>Apply now</h3>
-        <p>Enter your info below.</p>
-        <div class="form">
-        <label for="fname"></label><br>
-        <input type="text" id="fname" value="First Name"><br><br>
-        <label for="lname"></label><br>
-        <input type="text" id="lname" value="Last Name"><br><br>
-        <label for="phone"></label><br>
-        <input type="text" id="Phone" value="Phone number"><br><br>
-        <label for="Email"></label><br>
-        <input type="text" id="email" value="Email Address"><br><br>
-        <input type="checkbox" id="agree" name="agree" value="">
-        <label for="agree"> I agree to dash terms</label><br><br>
-        <input type="submit" value="Drive with us">
-        <p>Aready applied? Check your application status here</p>
-    </div>  
+    <form class="mainform" action="/action_page.php">
+        <div class="contact">
+            <h3 class='apply'>Apply Now</h3>
+            <p class="para1">Enter your info below.</p>
+            <div class="form">
+                <label for="fname"></label><br>
+                <input type="text" id="fname" value="First Name"><br><br>
+                <label for="lname"></label><br>
+                <input type="text" id="lname" value="Last Name"><br><br>
+                <label for="phone"></label><br>
+                <input type="tel" id="Phone" value="Phone number"><br><br>
+                <label for="Email"></label><br>
+                <input type="email" id="email" value="Email Address"><br><br>
+                <input type="checkbox" id="agree" name="agree" value="">
+                <label for=""> I agree to dash terms</label><br><br>
+                <button class="button1">DRIVE WITH US</button>
+                <p class='para2'>Aready applied? Check your<br> application status here</p>
+            </div>
+        </div>
     </form>
-<footer class="footer"> 
-<h4>see how much you can earn with Dash</h4>
-<p>how many hours you want to drive with us</p>
-<form action="/action.page.php">
-    <label for=""></label><br>
-        <input type="text" id="fname" value="Hours"><br><br>
-        <label for=""></label><br>
-        <input type="text" id="lname" value="City"><br><br>
-        <button class="button">Calculate</button>
-    </form>
-</footer>    
+    <footer class="grid-container">
+        <div class="h4">
+        <h4>see how much you can earn with Dash</h4>
+    </div>
+
+        <div class="para" p>how many hours you want to drive with us</p>
+        <div class="button">
+        <form action="/action.page.php">
+            <label for=""></label><br>
+            <input type="text" id="fname" value="Hours"><br><br>
+            <label for=""></label><br>
+            <input type="text" id="lname" value="City"><br><br>
+            <button class="button">Calculate</button>
+            <img class='Fb' src="images/facebook.svg">
+        
+        </form>
+        </div>
+    </footer>
 </body>
+
 </html>
