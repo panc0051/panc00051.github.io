@@ -3,9 +3,9 @@
     max-width: auto;
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:400px) {
     .Logo {
-        width: 10%;
+        width: 20%;
         padding: 2%;
     }
 
