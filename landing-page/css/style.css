@@ -2,7 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
     max-width: 100%;
 }
-
+/***** Mobile-View *******/
 @media screen and (min-width:400px) {
     .Logo {
         width: 20%;
@@ -60,7 +60,7 @@
         text-align: left;
     }
 }
-
+/***** Button1 *******/
 .button1 {
     background-color: #57eeab;
     /* Green */
@@ -76,7 +76,7 @@
     border-radius: 12px;
     width: 100%;
 }
-
+/***** Paragraph 2 *******/
 .para2 {
     text-align: left;
     padding: 2%;
@@ -147,7 +147,7 @@
     width: 100%;
     line-height: 22%;
 }
-
+/***** Tablet-View *******/
 @media screen and (min-width:900px) {
     .Logo {
         width: 40%;
@@ -208,7 +208,7 @@
         line-height: 0;
     }
 }
-
+/***** Web-View *******/
 @media screen and (min-width:1100px) {
     .Logo {
         width: 7%;
