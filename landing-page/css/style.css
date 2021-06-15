@@ -202,5 +202,15 @@
     .Logo{
         width: 7%;
     }
-    
-} 
+    .body{
+        background-image:("Images/scooter.svg")
+    }
+    .boss{
+        font-size: 40px;
+        line-height: 0%;
+    }
+    .start{
+        font-size: 20px;
+        line-height: 90%;
+    }
+}
