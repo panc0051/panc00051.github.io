@@ -1,7 +1,31 @@
-html{
-    background-image: url("file:///Users/preetpanchal/Downloads/max-nayman-zEeJ99bLwH0-unsplash-1536x1046.jpg");
+.main {
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position:relative;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    border: 1px red solid;
+  }
+  .image2 {
+    position:absolute;
+    margin: 0%;
+    padding: 0%;
+    top: 0px;
+    left: 0px;
+    border: 1px green solid;
+    width: 20%;
+    height: 25%;
 }
-.logo{
-    max-width: 20%;
-    height: auto;
+@media screen and (min-width:400px) {
+    .main{
+        width:auto;
+        height:auto;
+    }
+
+    
 }
