@@ -39,12 +39,17 @@
         left: 32%;
         transform: translate(-50%,-10%);
         color: orange;
+        background-color:transparent;
+        font-family: 'Dancing Script', cursive;
         font-size: 20px;
         padding: 15px;
         border: none;
         cursor:pointer;
         border-radius: 5px;
         text-align: center;
+    }
+    .btn-1:hover{
+        background-color: coral;
 
     }
     .btn-2{
@@ -53,6 +58,8 @@
         left: 60%;
         transform: translate(-50%,-10%);
         color: orange;
+        background-color: transparent;
+        font-family: 'Dancing Script', cursive;
         font-size: 20px;
         padding: 15px;
         border: none;
@@ -67,6 +74,8 @@
         left: 89%;
         transform: translate(-50%,-10%);
         color: orange;
+        background-color: transparent;
+        font-family: 'Dancing Script', cursive;
         font-size: 20px;
         padding: 15px;
         border: none;
@@ -75,6 +84,28 @@
         text-align: center;
 
     }
+    .btn-4{
+        position: absolute;
+        top: 55%;
+        left: 4%;
+        color:orange;
+        background-color:darkblue;
+        font-family: 'Dancing Script', cursive;
+        font-size: 13.5px;
+        cursor: pointer;
+        border-radius: 5%;
+    }
+    .H1{
+        position: absolute;
+        top:55%;
+        left:76%;
+        font-family: 'Dancing Script', cursive;
+        font-size: 19.5px;
+        color: coral;
+
+
+    }
+          
     
 }
 /*tablet*/
@@ -93,16 +124,22 @@
     }
     .btn-1{
         top: 6%;
-        left: 77%;
+        left: 87%;
+        font-family: 'Dancing Script', cursive;
         font-size: 40px;
         border: none;
         cursor: pointer;
         border-radius: 10px;
         text-align: center;
     }
+    .btn-1:hover{
+        background-color: purple;
+        color: seagreen;
+    }
     .btn-2{
         top: 6%;
         left: 140%;
+        font-family: 'Dancing Script', cursive;
         font-size: 40px;
         border: none;
         cursor: pointer;
@@ -112,11 +149,15 @@
     .btn-3{
         top: 6%;
         left: 200%;
+        font-family: 'Dancing Script', cursive;
         font-size: 40px;
         border: none;
         cursor: pointer;
         border-radius: 10px;
         text-align: center;
+    }
+    .btn-4{
+        top: 120%;
     }
 }
 /*web*/
@@ -129,4 +170,63 @@
         width: 230px;
         height: 230px;
     }
+}
+.btn-4 {
+    width: 120px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: absolute;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.btn-4:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in;
+    border-radius: 10px;
+}
+
+.btn-4:active {
+    color: #000
+}
+
+.btn-4:active:after {
+    background: transparent;
+}
+
+.btn-4:hover:before {
+    opacity: 5;
+}
+
+.btn-4r:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 10 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
 }
