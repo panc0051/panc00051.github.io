@@ -1,25 +1,95 @@
+/*mobile*/
+@media screen and (min-width:400px) {
+    .image1{
+        width: 570px;
+        height: 761px;
+    }
+    .image2{
+        width: 130px;
+        height: 130px;
+    }
+    .btn-1{
+        position:absolute;
+        top: 6%;
+        left: 32%;
+        transform: translate(-50%,-10%);
+        color: orange;
+        background-color:transparent;
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        padding: 15px;
+        border: none;
+        cursor:pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .btn-1:hover{
+        background-color: coral;
+
+    }
+    .btn-2{
+        position:absolute;
+        top: 6%;
+        left: 60%;
+        transform: translate(-50%,-10%);
+        color: orange;
+        background-color: transparent;
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        padding: 15px;
+        border: none;
+        cursor:pointer;
+        border-radius: 5px;
+        text-align: center;
+
+    }
+    .btn-2:hover{
+        background-color: crimson;
+    }
+
+    .btn-3{
+        position:absolute;
+        top: 6%;
+        left: 89%;
+        transform: translate(-50%,-10%);
+        color: orange;
+        background-color: transparent;
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        padding: 15px;
+        border: none;
+        cursor:pointer;
+        border-radius: 5px;
+        text-align: center;
+
+    }
+    .btn-3:hover{
+        background-color: crimson;
+    }
+
+/*form*/
 body {
-    background: #59ABE3;
-    margin: 0
+    background:#C5F4E0;
+    margin: 0;
+
 }
 
 .form {
-    width: 340px;
+    width: 100%;
     height: 440px;
     background: #e6e6e6;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px #000;
-    margin: calc(50vh - 220px) auto;
     padding: 20px 30px;
     max-width: calc(100vw - 40px);
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Dancing Script', cursive;
     position: relative
 }
 
 h2 {
-    margin: 10px 0;
-    padding-bottom: 10px;
+
+    padding-bottom: px;
     width: 180px;
     color: #78788c;
     border-bottom: 3px solid #78788c
@@ -67,20 +137,23 @@ button:hover {
     color: #fff
 }
 
-div {
-    content: 'Hi';
+.form {
+    content: '';
     position: absolute;
-    bottom: -15px;
-    right: -20px;
-    background: #50505a;
+    bottom: 108px;
+    left: 10px;
     color: #fff;
     width: 320px;
     padding: 16px 4px 16px 0;
     border-radius: 6px;
     font-size: 13px;
-    box-shadow: 10px 10px 40px -14px #000
+    
 }
 
 span {
-    margin: 0 5px 0 15px
+    margin: 0 5px 0 15px;
+}
+.Info{
+    color: black;
+
 }
