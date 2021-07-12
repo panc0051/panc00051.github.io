@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
-
+/****************SETTING UP AN HEADER***********/
 .main {
   width: 100%;
   position: absolute;
@@ -27,7 +27,7 @@
 }
 
 /******   Media Screens   *******/
-/*mobile*/
+/************FOR MOBILE *****************/
 @media screen and (min-width:400px) {
   .image1 {
     width: 570px;
@@ -128,7 +128,7 @@
 
 }
 
-/*tablet*/
+/************FOR TABLET*****************/
 @media screen and (min-width:680px) {
   .image1 {
     width: 100%;
@@ -201,7 +201,7 @@
   }
 }
 
-/*********  WEB **********/
+/*********  FOR WEB **********/
 @media screen and (min-width:880px) {
   .image1 {
     width: 1450px;
@@ -345,11 +345,11 @@
   }
 }
 
-/*btn*/
+/*ANIMATED BUTTONS*/
 /*mobile*/
 @media screen and (min-width:400px) {
 
-  /*button- 1*/
+  /*************button- 1****************/
   .btn-1 {
     width: 1px;
     height: 5px;
